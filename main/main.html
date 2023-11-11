@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" href="../img/logo.png">
+  <title>Stackcode</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top navegacao">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo.png" alt="Stackcode Logo" style="width:40px;"
+          class=" rounded-pill"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Produtos</a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item" href="#">Comunicação</a></li>
+              <li><a class="dropdown-item" href="#">E-commerce</a></li>
+              <li><a class="dropdown-item" href="#">Gestão Interna</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../suporte/suporte.html">Suporte</a>
+          </li>
+        </ul>
+        <form class="d-flex" style="height: 2rem;">
+          <input class="form-control me-2" name="search" type="text" placeholder="Ex: PABX IP">
+          <button class="btn btn-success" type="button" style="display: flex; align-items: center;">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <h1 style="text-align: center;">Bem vindo à StackCode</h1>
+    <p style="font-size: 80%; text-align: center; border-top: 1px solid gray;">Somos uma empresa de desenvolvimento focada em tecnologias que dinamizam e facilitam a vida de nossos clientes.
+    </p>
+    <p style="text-align: justify; font-size: 70%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+      porttitor pellentesque libero vel blandit. Curabitur rhoncus dignissim finibus. Nulla facilisi. Class aptent
+      taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent feugiat rutrum velit ut
+      congue. Proin pharetra, lorem nec auctor lobortis, sem nibh ornare sem, ac lacinia eros tortor quis sem. Donec
+      porta lectus ex, eget pellentesque metus hendrerit a. In venenatis pharetra dolor quis tristique. Curabitur eget
+      velit eu mi fermentum auctor. Aenean eu dui fermentum, accumsan arcu sed, posuere sem. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis egestas. Nam varius dui enim, eu porta augue egestas id.
+      Nulla diam mi, mattis ut placerat at, lacinia aliquam urna.</p>
+    <h5>Conheça nossos principais serviços</h4>
+    <div id="card-container">
+      <div id="card-row">
+        <script src="addcards.js"></script>
+      </div>
+    </div>
+    <p style="text-align: justify; font-size: 70%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+      porttitor pellentesque libero vel blandit. Curabitur rhoncus dignissim finibus. Nulla facilisi. Class aptent
+      taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent feugiat rutrum velit ut
+      congue. Proin pharetra, lorem nec auctor lobortis, sem nibh ornare sem, ac lacinia eros tortor quis sem. Donec
+      porta lectus ex, eget pellentesque metus hendrerit a. In venenatis pharetra dolor quis tristique. Curabitur eget
+      velit eu mi fermentum auctor. Aenean eu dui fermentum, accumsan arcu sed, posuere sem. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis egestas. Nam varius dui enim, eu porta augue egestas id.
+      Nulla diam mi, mattis ut placerat at, lacinia aliquam urna.</p>
+  </div>
+  </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
